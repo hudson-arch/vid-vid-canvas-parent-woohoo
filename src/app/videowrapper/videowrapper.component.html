@@ -1,0 +1,30 @@
+<p>videowrapper works!</p>
+<video
+  #sourceVid
+  id="sourceVid"
+  autoplay
+  playsinline
+  controls
+  loop
+  height="240"
+  width="360"
+  crossorigin="anonymous"
+  [src]="originalSrc"
+  class="block"
+>
+  <p>This browser does not support the video element.</p>
+</video>
+
+<!-- <video
+  #targetVid
+  id="targetVideo"
+  crossorigin="anonymous"
+  playsinline
+  autoplay
+  controls
+  height="240"
+  width="360"
+  class="block"
+></video> -->
+
+<canvas #targetCanvas height="240" width="360" class="block"></canvas>

@@ -1,0 +1,17 @@
+<videowrapper #wrapper (captureStream)="addItem($event)"></videowrapper>
+
+<video
+  #targetVid
+  id="targetVid"
+  crossorigin="anonymous"
+  playsinline
+  autoplay
+  controls
+  height="240"
+  width="360"
+  class="block"
+></video>
+
+<canvas #targetCanvas height="240" width="360" class="block"></canvas>
+
+<button #mybutton>A btn</button>
